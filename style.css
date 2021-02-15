@@ -1,0 +1,207 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 950px;
+    min-height: 900px;
+}
+
+
+.header {
+    background: whitesmoke;
+    padding: 10px 15px;
+}
+
+.header h1, h2 {
+    display: inline-block;
+    width: 450px;
+    vertical-align: middle;
+}
+
+.header h1 {
+    text-align: left;
+}
+
+.header h2 {
+    text-align: right;
+}
+
+.content {
+    background: radial-gradient(circle, rgba(116,89,89,1) 0%, rgba(11,11,11,1) 100%);
+    padding: 15px 15px 20px;
+}
+
+.content img {
+    width: 440px;
+    height: auto;
+    margin-right: 15px;
+    border: 5px solid lightgray;
+}
+
+.content .about {
+    display: inline-block;
+    width: 440px;
+    height: 299px;
+    vertical-align: top;
+    background: linear-gradient(90deg, rgba(237,237,237,1) 0%, rgba(209,187,187,1) 100%);}
+
+.about h2 {
+    background: linear-gradient(90deg, rgba(120,120,120,1) 0%, rgba(182,182,182,1) 100%);    
+    width: 430px;
+    padding: 10px 0px 10px 10px;
+    color: white;
+}
+
+.about p, a {
+    padding: 10px;
+}
+
+.content .websites {
+    width: 290px;
+    margin-top: 15px;
+    background: linear-gradient(90deg, rgba(237,237,237,1) 0%, rgba(209,187,187,1) 100%);
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.websites h2 {
+    color: white;
+    width: 280px;
+    padding: 5px 0px 5px 10px;
+    background: linear-gradient(90deg, rgba(120,120,120,1) 0%, rgba(182,182,182,1) 100%);    
+}
+
+.websites img {
+    width: 289px;
+    padding: 0px;
+    border: none;
+}
+
+.websites p {
+    padding: 5px 10px;
+    height: 160px;
+    font-size: 15px;
+}
+
+.websites .technologies {
+    width: 270px;
+    margin: auto;
+}
+
+.technologies li {
+    display: inline-block;
+}
+
+.technologies li img {
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+    padding: 5px;
+    border: none;
+}
+
+.websites a {
+    width: 90px;
+    font-size: 12px;
+    display: inline-block;
+    background: green;
+    color: white;
+    padding: 5px;
+    margin: 5px 100px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.content .websites_last {
+    width: 290px;
+    margin-top: 15px 0px 20px;
+    background: linear-gradient(90deg, rgba(237,237,237,1) 0%, rgba(209,187,187,1) 100%);
+    display: inline-block;
+}
+
+.websites_last h2 {
+    color: white;
+    width: 280px;
+    padding: 5px 0px 5px 10px;
+    background: linear-gradient(90deg, rgba(120,120,120,1) 0%, rgba(182,182,182,1) 100%);    
+}
+
+.websites_last img {
+    width: 289px;
+    padding: 0px;
+    border: none;
+}
+
+.websites_last p {
+    background: lightgray;
+    padding: 5px 10px;
+    height: 160px;
+    font-size: 15px;
+}
+
+.websites_last .technologies {
+    width: 270px;
+    margin: auto;
+}
+
+.technologies li {
+    display: inline-block;
+}
+
+.technologies li img {
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.websites_last a {
+    width: 90px;
+    font-size: 12px;
+    display: inline-block;
+    background: green;
+    color: white;
+    padding: 5px;
+    margin: 5px 100px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.content h3 {
+    color: white;
+    background: linear-gradient(90deg, rgba(120,120,120,1) 0%, rgba(182,182,182,1) 100%);    
+    padding: 5px 0px 5px 10px;
+}
+
+.footer {
+    width: 950px;
+    background: whitesmoke;
+    padding: 5px 0px;
+}
+
+.footer p, ul {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.footer li img {
+    width: 20px;
+    height: auto;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.footer a {
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
